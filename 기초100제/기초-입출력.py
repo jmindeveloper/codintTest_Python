@@ -1,66 +1,92 @@
-# # 6009
+# 6009
 
-# i = input()
-# print(i)
+i = input()
+print(i)
 
-# # 6010
+# 6010
 
-# i = int(input())
-# print(i)
+i = int(input())
+print(i)
 
-# # 6011
+# 6011
 
-# print(float(input()))
+print(float(input()))
 
-# # 6012
+# 6012
 
-# a = input()
-# b = input()
-# print(a)
-# print(b)
+a = input()
+b = input()
+print(a)
+print(b)
 
-# # 6013
+# 6013
 
-# a = input()
-# b = input()
-# print(b)
-# print(a)
+a = input()
+b = input()
+print(b)
+print(a)
 
 
-# # 6014
+# 6014
 
-# i = input()
-# print(i)
-# print(i)
-# print(i)
+i = input()
+print(i)
+print(i)
+print(i)
 
-# # 6015
+# 6015
 
-# a, b = input().split()
-# print(a)
-# print(b)
+a, b = input().split()
+print(a)
+print(b)
 
-# # 6016
+# 6016
 
-# a, b = input().split()
-# print(b, a)
+a, b = input().split()
+print(b, a)
 
-# # 6017
+# 6017
 
-# i = input()
-# print(i, i, i)
+i = input()
+print(i, i, i)
 
-# # 6018
+# 6018
 
-# print(input())
+print(input())
 
-# # 6019
+# 6019
 
-# y, m, d = input().split('.')
+y, m, d = input().split('.')
 
-# print(f'{d}-{m}-{y}')
+print(f'{d}-{m}-{y}')
 
 # 6020
 
 a, b = input().split('-')
-print(a, b)
+print(f'{a}{b}')
+
+# 6021
+
+i = input()
+print(i[0])
+print(i[1])
+print(i[2])
+print(i[3])
+print(i[4])
+
+# 6022
+
+i = input()
+print(i[0: 2])
+print(i[2: 4])
+print(i[4: 6])
+
+# 6023
+
+h, m, s = input().split(':')
+print(m)
+
+# 6024
+
+a, b = input().split()
+print(a + b)
